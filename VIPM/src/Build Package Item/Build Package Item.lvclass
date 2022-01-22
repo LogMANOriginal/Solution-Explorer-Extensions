@@ -90,6 +90,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="Required LV Version.vi" Type="VI" URL="../Required LV Version.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%=!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%!B"T9U)%*J&gt;$]!$5!(!!&gt;-6C"::7&amp;S!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%:!=!!?!!!H#F:*5%UO&lt;(:M;7);1H6J&lt;'1A5'&amp;D;W&amp;H:3"*&gt;'6N,GRW9WRB=X-!&amp;5*V;7RE)&amp;"B9WNB:W5A382F&lt;3"J&lt;A"5!0!!$!!$!!1!"1!'!!9!"A!'!!9!"Q!'!!9!#!-!!(A!!!U)!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="Serialize.vi" Type="VI" URL="../Serialize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Z!-0````]65W6S;7&amp;M;8JB&gt;'FP&lt;C"7:8*T;7^O!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!#)05W^M&gt;82J&lt;WYO&lt;(:M;7*Q%&amp;B.4#"/&lt;W2F,GRW9WRB=X-!!!F*&gt;'6N)%FO:G]!2E"Q!"Y!!#=+6EF143ZM&gt;GRJ9BJ#&gt;7FM:#"197.L97&gt;F)%FU:7UO&lt;(:D&lt;'&amp;T=Q!61H6J&lt;'1A5'&amp;D;W&amp;H:3"*&gt;'6N)'FO!&amp;1!]!!-!!-!"!!&amp;!!1!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!#1!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
