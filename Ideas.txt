@@ -3,4 +3,3 @@
 - Preview Build by reading from .vipb file
 - Configure LabVIEW Version
 - Option to apply package configuration before build
-- Set Package Version
