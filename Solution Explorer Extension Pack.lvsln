@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution Version="1.1">
+
+  <Version Build="0" Major="0" Minor="1" Patch="0"/>
+
+  <Config Name="Debug"/>
+
+  <Config Name="Release"/>
+
+  <Item ID="96D75782-6657-4704-8E3C-42A376AA" Type="Project" Version="1.1">
+    <Info Path="..\VIPM\VIPM.lvproj" x64="FALSE">
+      <Config Name="Debug">
+        <Debug Spec="VIPM" Target="My Computer"/>
+      </Config>
+      <Config Name="Release"/>
+    </Info>
+  </Item>
+
+  <Item ID="D22FD486-9A01-4250-A200-E9858071" Type="SFX" Version="1.1">
+    <Info>
+      <Input>
+        <Version>
+          <ItemID>96D75782-6657-4704-8E3C-42A376AA</ItemID>
+          <BuildName>VIPM (My Computer)</BuildName>
+          <File>VIPM.lvlibp</File>
+        </Version>
+        <Item Build="VIPM (My Computer)" ItemID="96D75782-6657-4704-8E3C-42A376AA" Path=""/>
+      </Input>
+      <Output>
+        <Directory>..\builds</Directory>
+        <Name>Solution Explorer Extensions</Name>
+      </Output>
+      <SFXInfo>
+        <Quiet>FALSE</Quiet>
+        <RemoveFilesAfterCommand>FALSE</RemoveFilesAfterCommand>
+        <ExtractWindowTitle>Solution Explorer Extensions</ExtractWindowTitle>
+        <Overwrite>FALSE</Overwrite>
+        <PostExtractCommand></PostExtractCommand>
+        <ExtractLocation>%ProgramFiles(x86)%\MGI\Solution Explorer\data</ExtractLocation>
+      </SFXInfo>
+    </Info>
+  </Item>
+
+</Solution>

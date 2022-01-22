@@ -1,0 +1,6 @@
+- Open Explorer at VI Package Configuration
+- Open VI Package Configuration in VIPM
+- Preview Build by reading from .vipb file
+- Configure LabVIEW Version
+- Option to apply package configuration before build
+- Set Package Version

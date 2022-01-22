@@ -1,0 +1,14 @@
+# Build Files
+/builds/
+
+# Compiled Libraries
+*.dll
+*.lvlibp
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.bldcache
+*.lvlps
