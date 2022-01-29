@@ -5,8 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Apply VIPC Step.lvclass" Type="LVClass" URL="../Apply VIPC Step/Apply VIPC Step.lvclass"/>
-	<Item Name="Build Package Item.lvclass" Type="LVClass" URL="../Build Package Item/Build Package Item.lvclass"/>
-	<Item Name="Build Package Step.lvclass" Type="LVClass" URL="../Build Package Step/Build Package Step.lvclass"/>
+	<Item Name="Build VIPB Step.lvclass" Type="LVClass" URL="../Build VIPB Step/Build VIPB Step.lvclass"/>
 	<Item Name="Close VIPM Step.lvclass" Type="LVClass" URL="../Close VIPM Step/Close VIPM Step.lvclass"/>
 	<Item Name="Open VIPM Step.lvclass" Type="LVClass" URL="../Open VIPM Step/Open VIPM Step.lvclass"/>
+	<Item Name="VIPM Item.lvclass" Type="LVClass" URL="../VIPM Item/VIPM Item.lvclass"/>
 </Library>
