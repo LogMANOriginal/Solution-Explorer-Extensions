@@ -54,6 +54,16 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082401280</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Find Icon With Most Depth.vi" Type="VI" URL="../Find Icon With Most Depth.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$:!!!!#A!,1!5!"6&gt;J:(2I!!V!"1!'3'6J:WBU!!!,1!5!"52F=(2I!!5!"1!!'E"!!!(`````!!-.5G6T&lt;X6S9W5A2'&amp;U91!R!0%!!!!!!!!!!1R*9W^O37ZG&lt;SZD&gt;'Q!(%"1!!1!!!!"!!)!"!F*9W^O)%FO:G]!&amp;E"!!!(`````!!5*37.P&lt;C"*&lt;G:P!"F!"1!437.P&lt;C"4;8JF)&amp;NQ?&amp;UA+$%W+1!21!-!#EFD&lt;WYA37ZE:8A!!"Y!]!!$!!9!"Q!)!A!!'1!#%!!!!!!!!!!*!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Get Build Steps core.vi" Type="VI" URL="../Get Build Steps core.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'$!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!E$V.P&lt;(6U;7^O,GRW&lt;'FC="*#&gt;7FM:#"4&gt;'6Q,GRW9WRB=X-!!!Z#&gt;7FM:#"*&gt;'6N)'^V&gt;!!!'%"!!!(`````!!5,1H6J&lt;'1A5X2F=(-!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!/1#%)5(*F&gt;GFF&gt;T]!!"R!-0````]41H6J&lt;'1A1W^O:GFH&gt;8*B&gt;'FP&lt;A"'1(!!(A!!*QJ736".,GRW&lt;'FC'E*V;7RE)&amp;"B9WNB:W5A382F&lt;3ZM&gt;G.M98.T!"6#&gt;7FM:#"197.L97&gt;F)%FU:7UA;7Y!6!$Q!!Q!!Q!%!!9!"!!%!!1!"!!%!!=!#!!*!!I#!!"Y!!!.#!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!1!!!#%!!!!*!!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
