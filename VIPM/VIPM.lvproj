@@ -18,6 +18,14 @@
 		<Item Name="Ideas.txt" Type="Document" URL="../../Ideas.txt"/>
 		<Item Name="VIPM.lvlib" Type="Library" URL="../src/VIPM.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="ICSharpCode.SharpZipLib.dll" Type="Document" URL="/&lt;userlib&gt;/_MGI/File/Zip/Support Files/ICSharpCode.SharpZipLib.dll"/>
+				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
+				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
+				<Item Name="MGI SZL Close Zip File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Zip/MGI SZL Close Zip File.vi"/>
+				<Item Name="MGI SZL Extract File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Zip/MGI SZL Extract File.vi"/>
+				<Item Name="MGI SZL Open Zip File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Zip/MGI SZL Open Zip File.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/1D Array to String__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
