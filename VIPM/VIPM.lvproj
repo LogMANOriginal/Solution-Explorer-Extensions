@@ -15,7 +15,6 @@
 		<Item Name="libs" Type="Folder" URL="../../libs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Ideas.txt" Type="Document" URL="../../Ideas.txt"/>
 		<Item Name="VIPM.lvlib" Type="Library" URL="../src/VIPM.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

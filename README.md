@@ -39,10 +39,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Adds additional solution items to the Solution Explorer:
+Adds additional build items to Solution Explorer:
 
-* VI Package Manager
-  * Build Package - builds a package from an existing package specification (`.vipb`)
+* **VIPM** - Uses [VI Package Manager](https://vipm.io/) to build packages and apply package configurations.
 
 ### Built With
 
@@ -60,8 +59,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-1. Install Solution Explorer
-   * Follow the [installation instructions](https://www.mooregoodideas.com/products/solution-explorer/index.html#distribution-and-installation).
+1. Install Solution Explorer (follow the [installation instructions](https://www.mooregoodideas.com/products/solution-explorer/index.html#distribution-and-installation))
 2. Clone the repo
    ```sh
    git clone https://github.com/logmanoriginal/solution-explorer-extension-pack.git
@@ -77,10 +75,16 @@ To get a local copy up and running follow these simple steps.
 5. Build the solution (`Solution Explorer Extension Pack.lvsln`)
 6. Install the created SFX installer (run as Administrator)
 
+**Important**
+
+By default the SFX installer does not overwrite files in the plugin folder. To upgrade plugins, either delete the files from the plugin folder manually (recommended) or allow the installer to overwrite the files.
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-TBD.
+Simply drag your configurations (.vipc) and build specifications (.vipb) into Solution Explorer to include them in your build pipeline.
+
+![VIPM Example 1](.github/images/vipm-example-1.png)]
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -116,7 +120,9 @@ Project Link: [https://github.com/logmanoriginal/solution-explorer-extension-pac
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Solution Explorer](https://gitlab.com/mgi/Solution-Explorer)
+* [MGI Solution Explorer](https://gitlab.com/mgi/Solution-Explorer)
+* [MGI Toolkits](https://www.vipm.io/publisher/mgi/)
+* [JKI VIPM API](https://www.vipm.io/package/jki_lib_vipm_api/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

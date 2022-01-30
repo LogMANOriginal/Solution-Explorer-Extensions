@@ -1,2 +1,0 @@
-- Open Explorer at VI Package Configuration
-- Open VI Package Configuration in VIPM
