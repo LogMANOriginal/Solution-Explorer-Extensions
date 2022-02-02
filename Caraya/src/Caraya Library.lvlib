@@ -5,5 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Caraya Item.lvclass" Type="LVClass" URL="../Caraya Item/Caraya Item.lvclass"/>
+	<Item Name="Get Report File Path.vi" Type="VI" URL="../Get Report File Path.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Run Tests Step.lvclass" Type="LVClass" URL="../Run Tests Step/Run Tests Step.lvclass"/>
 </Library>

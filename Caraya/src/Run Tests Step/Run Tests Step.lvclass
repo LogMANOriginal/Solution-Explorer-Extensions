@@ -43,16 +43,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="Get Report File Path.vi" Type="VI" URL="../Get Report File Path.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"-!!!!"!!/1$,`````"&amp;"B&gt;'A!!!1!!!!51$,`````#V*F='^S&gt;#"';7RF!"Y!]!!$!!!!!1!#!A!!'1!!%!!!!!!!!!!*!!!!!!%!!Q!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130946</Property>
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="Preview Build.vi" Type="VI" URL="../Preview Build.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;B!=!!?!!!I$V.P&lt;(6U;7^O,GRW&lt;'FC=":#&gt;7FM:#""=H2J:G&amp;D&gt;#ZM&gt;G.M98.T!!!F5W^M&gt;82J&lt;WYO&lt;(:M;7)[1H6J&lt;'1A18*U;7:B9X1O&lt;(:D&lt;'&amp;T=Q!71%!!!@````]!"1F"=H2J:G&amp;D&gt;(-!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1")1(!!(A!!,22$98*B?7%A4'FC=G&amp;S?3ZM&gt;GRJ9B:3&gt;7YA6'6T&gt;(-A5X2F=#ZM&gt;G.M98.T!"&amp;3&gt;7YA6'6T&gt;(-A5X2F=#"J&lt;A"5!0!!$!!$!!1!"A!%!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
