@@ -42,6 +42,7 @@
 Adds additional build items to Solution Explorer:
 
 * **VIPM** - Uses [VI Package Manager](https://vipm.io/) to build packages and apply package configurations.
+* **Caraya** - Runs unit tests using [Caraya Unit Test Framework](https://www.vipm.io/package/jki_lib_caraya/).
 
 ### Built With
 
@@ -82,9 +83,17 @@ By default the SFX installer does not overwrite files in the plugin folder. To u
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Simply drag your configurations (.vipc) and build specifications (.vipb) into Solution Explorer to include them in your build pipeline.
+### VIPM
 
-![VIPM Example 1](.github/images/vipm-example-1.png)]
+Simply drag your configurations (`.vipc`) and build specifications (`.vipb`) into Solution Explorer to include them in your build pipeline.
+
+![VIPM Example 1](.github/images/vipm-example-1.png)
+
+### Caraya
+
+Add the Caraya build item to your pipeline and select a folder or compatible file type (`.vi`, `.vim`, `.vit`, `.lvproj`, `.lvlib`, `.lvclass`).
+
+![Caraya Example 1](.github/images/caraya-example-1.png)
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -123,6 +132,7 @@ Project Link: [https://github.com/logmanoriginal/solution-explorer-extension-pac
 * [MGI Solution Explorer](https://gitlab.com/mgi/Solution-Explorer)
 * [MGI Toolkits](https://www.vipm.io/publisher/mgi/)
 * [JKI VIPM API](https://www.vipm.io/package/jki_lib_vipm_api/)
+* [Caraya Unit Test Framework](https://www.vipm.io/package/jki_lib_caraya/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
