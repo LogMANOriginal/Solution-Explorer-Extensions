@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Solution Version="1.1">
 
-  <Version Build="0" Major="0" Minor="1" Patch="0"/>
+  <Version Build="0" Major="0" Minor="2" Patch="0"/>
 
-  <Config Name="Debug"/>
+  <Config Name="Debug">
+    <Exclude ID="D22FD486-9A01-4250-A200-E9858071"/>
+    <Exclude ID="EA461A26-B4F4-4909-8BB6-54A5CFD7"/>
+  </Config>
 
   <Config Name="Release"/>
 
@@ -11,6 +14,15 @@
     <Info Path="..\VIPM\VIPM.lvproj" x64="FALSE">
       <Config Name="Debug">
         <Debug Spec="VIPM" Target="My Computer"/>
+      </Config>
+      <Config Name="Release"/>
+    </Info>
+  </Item>
+
+  <Item ID="F19FDEAB-9441-475C-B0E9-79F174AE" Type="Project" Version="1.1">
+    <Info Path="..\Caraya\Caraya.lvproj" x64="FALSE">
+      <Config Name="Debug">
+        <Debug Spec="Caraya" Target="My Computer"/>
       </Config>
       <Config Name="Release"/>
     </Info>
@@ -28,12 +40,37 @@
       </Input>
       <Output>
         <Directory>..\builds</Directory>
-        <Name>Solution Explorer Extensions</Name>
+        <Name>VIPM</Name>
       </Output>
       <SFXInfo>
         <Quiet>FALSE</Quiet>
         <RemoveFilesAfterCommand>FALSE</RemoveFilesAfterCommand>
-        <ExtractWindowTitle>Solution Explorer Extensions</ExtractWindowTitle>
+        <ExtractWindowTitle>VIPM</ExtractWindowTitle>
+        <Overwrite>FALSE</Overwrite>
+        <PostExtractCommand></PostExtractCommand>
+        <ExtractLocation>%ProgramFiles(x86)%\MGI\Solution Explorer\data</ExtractLocation>
+      </SFXInfo>
+    </Info>
+  </Item>
+
+  <Item ID="EA461A26-B4F4-4909-8BB6-54A5CFD7" Type="SFX" Version="1.1">
+    <Info>
+      <Input>
+        <Version>
+          <ItemID>F19FDEAB-9441-475C-B0E9-79F174AE</ItemID>
+          <BuildName>Caraya (My Computer)</BuildName>
+          <File>Caraya.lvlibp</File>
+        </Version>
+        <Item Build="Caraya (My Computer)" ItemID="F19FDEAB-9441-475C-B0E9-79F174AE" Path=""/>
+      </Input>
+      <Output>
+        <Directory>..\builds</Directory>
+        <Name>Caraya</Name>
+      </Output>
+      <SFXInfo>
+        <Quiet>FALSE</Quiet>
+        <RemoveFilesAfterCommand>FALSE</RemoveFilesAfterCommand>
+        <ExtractWindowTitle>Caraya</ExtractWindowTitle>
         <Overwrite>FALSE</Overwrite>
         <PostExtractCommand></PostExtractCommand>
         <ExtractLocation>%ProgramFiles(x86)%\MGI\Solution Explorer\data</ExtractLocation>
