@@ -37,6 +37,8 @@
           <File>VIPM.lvlibp</File>
         </Version>
         <Item Build="VIPM (My Computer)" ItemID="96D75782-6657-4704-8E3C-42A376AA" Path=""/>
+        <File File="..\licenses" Path=""/>
+        <File File="..\LICENSE.txt" Path=""/>
       </Input>
       <Output>
         <Directory>..\builds</Directory>
@@ -62,6 +64,8 @@
           <File>Caraya.lvlibp</File>
         </Version>
         <Item Build="Caraya (My Computer)" ItemID="F19FDEAB-9441-475C-B0E9-79F174AE" Path=""/>
+        <File File="..\licenses" Path=""/>
+        <File File="..\LICENSE.txt" Path=""/>
       </Input>
       <Output>
         <Directory>..\builds</Directory>
