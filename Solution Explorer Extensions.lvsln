@@ -28,6 +28,13 @@
     </Info>
   </Item>
 
+  <Item ID="10EDC9F1-4177-4931-AAD4-7328C90D" Type="Run VI" Version="1.0">
+    <Info Name="Collect licenses" x64="FALSE">
+      <VIPath>..\licenses.vi</VIPath>
+      <CustomData></CustomData>
+    </Info>
+  </Item>
+
   <Item ID="D22FD486-9A01-4250-A200-E9858071" Type="SFX" Version="1.1">
     <Info>
       <Input>
