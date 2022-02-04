@@ -1,6 +1,9 @@
 # Build Files
 /builds/
 
+# 3rd-party Licenses
+/licenses/
+
 # Compiled Libraries
 *.dll
 *.lvlibp
