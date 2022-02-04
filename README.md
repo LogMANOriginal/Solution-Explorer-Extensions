@@ -16,30 +16,30 @@
 <!-- PROJECT LOGO -->
 <br>
 <p align="center">
-  <a href="https://github.com/logmanoriginal/solution-explorer-extension-pack">
+  <a href="https://github.com/logmanoriginal/solution-explorer-extensions">
     <img src=".github/images/icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Solution Explorer Extension Pack</h3>
+  <h3 align="center">Solution Explorer Extensions</h3>
 
   <p align="center">
-    Adds more items to the <a href="https://www.mooregoodideas.com/products/solution-explorer/">Solution Explorer</a>.
+    Addtional build items for <a href="https://www.mooregoodideas.com/products/solution-explorer/">Solution Explorer</a>.
     <br>
-    <a href="https://github.com/logmanoriginal/solution-explorer-extension-pack"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/logmanoriginal/solution-explorer-extensions"><strong>Explore the docs »</strong></a>
     <br>
     <br>
-    <a href="https://github.com/logmanoriginal/solution-explorer-extension-pack">View Demo</a>
+    <a href="https://github.com/logmanoriginal/solution-explorer-extensions">View Demo</a>
     <br>
-    <a href="https://github.com/logmanoriginal/solution-explorer-extension-pack/issues">Report Bug</a>
+    <a href="https://github.com/logmanoriginal/solution-explorer-extensions/issues">Report Bug</a>
     <br>
-    <a href="https://github.com/logmanoriginal/solution-explorer-extension-pack/issues">Request Feature</a>
+    <a href="https://github.com/logmanoriginal/solution-explorer-extensions/issues">Request Feature</a>
   </p>
 </p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Adds additional build items to Solution Explorer:
+This project provides additional build items for Solution Explorer:
 
 * **VIPM** - Uses [VI Package Manager](https://vipm.io/) to build packages and apply package configurations.
 * **Caraya** - Runs unit tests using [Caraya Unit Test Framework](https://www.vipm.io/package/jki_lib_caraya/).
@@ -63,7 +63,7 @@ To get a local copy up and running follow these simple steps.
 1. Install Solution Explorer (follow the [installation instructions](https://www.mooregoodideas.com/products/solution-explorer/index.html#distribution-and-installation))
 2. Clone the repo
    ```sh
-   git clone https://github.com/logmanoriginal/solution-explorer-extension-pack.git
+   git clone https://github.com/logmanoriginal/solution-explorer-extensions.git
    ```
 3. Install dependencies
    ```sh
@@ -73,7 +73,7 @@ To get a local copy up and running follow these simple steps.
 4. Copy the following files from the Solution Explorer plugin folder into the `libs` folder
    * `Solution.lvlibp`
    * `Project.lvlibp`
-5. Build the solution (`Solution Explorer Extension Pack.lvsln`)
+5. Build the solution (`Solution Explorer Extensions.lvsln`)
 6. Install the created SFX installer (run as Administrator)
 
 **Important**
@@ -98,7 +98,7 @@ Add the Caraya build item to your pipeline and select a folder or compatible fil
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/logmanoriginal/solution-explorer-extension-pack/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/logmanoriginal/solution-explorer-extensions/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -124,7 +124,7 @@ Distributed under the BSD-3-Clause License. See [`LICENSE`](LICENSE.txt) for mor
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/logmanoriginal/solution-explorer-extension-pack](https://github.com/logmanoriginal/solution-explorer-extension-pack)
+Project Link: [https://github.com/logmanoriginal/solution-explorer-extensions](https://github.com/logmanoriginal/solution-explorer-extensions)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -136,13 +136,13 @@ Project Link: [https://github.com/logmanoriginal/solution-explorer-extension-pac
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/logmanoriginal/solution-explorer-extension-pack.svg?style=for-the-badge
-[contributors-url]: https://github.com/logmanoriginal/solution-explorer-extension-pack/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/logmanoriginal/solution-explorer-extension-pack.svg?style=for-the-badge
-[forks-url]: https://github.com/logmanoriginal/solution-explorer-extension-pack/network/members
-[stars-shield]: https://img.shields.io/github/stars/logmanoriginal/solution-explorer-extension-pack.svg?style=for-the-badge
-[stars-url]: https://github.com/logmanoriginal/solution-explorer-extension-pack/stargazers
-[issues-shield]: https://img.shields.io/github/issues/logmanoriginal/solution-explorer-extension-pack.svg?style=for-the-badge
-[issues-url]: https://github.com/logmanoriginal/solution-explorer-extension-pack/issues
-[license-shield]: https://img.shields.io/github/license/logmanoriginal/solution-explorer-extension-pack.svg?style=for-the-badge
-[license-url]: https://github.com/logmanoriginal/solution-explorer-extension-pack/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/logmanoriginal/solution-explorer-extensions.svg?style=for-the-badge
+[contributors-url]: https://github.com/logmanoriginal/solution-explorer-extensions/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/logmanoriginal/solution-explorer-extensions.svg?style=for-the-badge
+[forks-url]: https://github.com/logmanoriginal/solution-explorer-extensions/network/members
+[stars-shield]: https://img.shields.io/github/stars/logmanoriginal/solution-explorer-extensions.svg?style=for-the-badge
+[stars-url]: https://github.com/logmanoriginal/solution-explorer-extensions/stargazers
+[issues-shield]: https://img.shields.io/github/issues/logmanoriginal/solution-explorer-extensions.svg?style=for-the-badge
+[issues-url]: https://github.com/logmanoriginal/solution-explorer-extensions/issues
+[license-shield]: https://img.shields.io/github/license/logmanoriginal/solution-explorer-extensions.svg?style=for-the-badge
+[license-url]: https://github.com/logmanoriginal/solution-explorer-extensions/blob/master/LICENSE.txt

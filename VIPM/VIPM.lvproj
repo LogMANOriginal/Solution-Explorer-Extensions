@@ -149,7 +149,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{D71F300F-19AB-4E3F-8B71-1D8D15ED78DF}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">0</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">0</Property>
 				<Property Name="Destination[0].destName" Type="Str">VIPM.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM/VIPM.lvlibp</Property>
