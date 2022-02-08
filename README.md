@@ -43,6 +43,7 @@ This project provides additional build items for Solution Explorer:
 
 * **VIPM** - Uses [VI Package Manager](https://vipm.io/) to build packages and apply package configurations.
 * **Caraya** - Runs unit tests using [Caraya Unit Test Framework](https://www.vipm.io/package/jki_lib_caraya/).
+* **ZIP** - Creates a ZIP archive from build artifacts.
 
 ### Built With
 
@@ -94,6 +95,12 @@ Simply drag your configurations (`.vipc`) and build specifications (`.vipb`) int
 Add the Caraya build item to your pipeline and select a folder or compatible file type (`.vi`, `.vim`, `.vit`, `.lvproj`, `.lvlib`, `.lvclass`).
 
 ![Caraya Example 1](.github/images/caraya-example-1.png)
+
+### ZIP
+
+Add the ZIP build item to your solution and specify the output file (`.zip`). This will create an archive with build artifacts from the previous build steps.
+
+![ZIP Example 1](.github/images/zip-example-1.png)
 
 <!-- ROADMAP -->
 ## Roadmap

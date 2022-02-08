@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Solution Version="1.1">
 
-  <Version Build="0" Major="0" Minor="2" Patch="0"/>
+  <Version Build="0" Major="0" Minor="3" Patch="0"/>
 
   <Config Name="Debug">
     <Exclude ID="D22FD486-9A01-4250-A200-E9858071"/>
     <Exclude ID="EA461A26-B4F4-4909-8BB6-54A5CFD7"/>
+    <Exclude ID="CFC10661-F155-4B29-AFEE-68AC950E"/>
   </Config>
 
   <Config Name="Release"/>
@@ -23,6 +24,15 @@
     <Info Path="..\Caraya\Caraya.lvproj" x64="FALSE">
       <Config Name="Debug">
         <Debug Spec="Caraya" Target="My Computer"/>
+      </Config>
+      <Config Name="Release"/>
+    </Info>
+  </Item>
+
+  <Item ID="88BA1CFC-9F85-4016-934E-9CB2680C" Type="Project" Version="1.1">
+    <Info Path="..\ZIP\ZIP.lvproj" x64="FALSE">
+      <Config Name="Debug">
+        <Debug Spec="ZIP" Target="My Computer"/>
       </Config>
       <Config Name="Release"/>
     </Info>
@@ -82,6 +92,33 @@
         <Quiet>FALSE</Quiet>
         <RemoveFilesAfterCommand>FALSE</RemoveFilesAfterCommand>
         <ExtractWindowTitle>Caraya</ExtractWindowTitle>
+        <Overwrite>FALSE</Overwrite>
+        <PostExtractCommand></PostExtractCommand>
+        <ExtractLocation>%ProgramFiles(x86)%\MGI\Solution Explorer\data</ExtractLocation>
+      </SFXInfo>
+    </Info>
+  </Item>
+
+  <Item ID="CFC10661-F155-4B29-AFEE-68AC950E" Type="SFX" Version="1.1">
+    <Info>
+      <Input>
+        <Version>
+          <ItemID>88BA1CFC-9F85-4016-934E-9CB2680C</ItemID>
+          <BuildName>ZIP (My Computer)</BuildName>
+          <File>ZIP.lvlibp</File>
+        </Version>
+        <Item Build="ZIP (My Computer)" ItemID="88BA1CFC-9F85-4016-934E-9CB2680C" Path=""/>
+        <File File="..\licenses" Path=""/>
+        <File File="..\LICENSE.txt" Path=""/>
+      </Input>
+      <Output>
+        <Directory>..\builds</Directory>
+        <Name>ZIP</Name>
+      </Output>
+      <SFXInfo>
+        <Quiet>FALSE</Quiet>
+        <RemoveFilesAfterCommand>FALSE</RemoveFilesAfterCommand>
+        <ExtractWindowTitle>ZIP</ExtractWindowTitle>
         <Overwrite>FALSE</Overwrite>
         <PostExtractCommand></PostExtractCommand>
         <ExtractLocation>%ProgramFiles(x86)%\MGI\Solution Explorer\data</ExtractLocation>
